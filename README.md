@@ -9,20 +9,13 @@ This gem provides the version of the toolkit with LESS stylesheets converted int
 
 ## Installation
 
-This library requires the sass-rails gem to work. So make sure that you have something like this in your Gemfile:
+This library requires the sass-rails gem to work, and will pull this in at installation.
+
+Include the following line in your Gemfile and you're all set:
 
 ```ruby
-group :assets do
-  gem 'sass-rails', '~> 3.2.3'
-end
+gem 'sass-rails-bootstrap'
 ```
-
-Then include the following line in your Gemfile and you're all set:
-
-```ruby
-gem 'sass-rails-bootstrap', :git => 'git://github.com/voidseeker/sass-rails-bootstrap.git'
-```
-
 
 ## Usage
 
